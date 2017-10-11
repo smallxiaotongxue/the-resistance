@@ -1,0 +1,30 @@
+<!-- 游戏房间  -->
+<view class='gameroom-container'>
+
+  <view>
+    <view class="userinfo">
+      <block>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+  </view>
+
+  <view class='page-body'>
+    <text class='config-title'>房间选项</text>
+
+    <view class="config">
+      <view class='config-item'>
+        <text>随机担任法官</text>
+        <switch checked />
+      </view>   
+    </view>
+
+    <view class="btn-area" id="buttonContainer">
+      <button type="primary" bindtap="toGameRoom">创 建</button>
+    </view>
+  </view>
+
+  
+  
+  </view>
+</view>

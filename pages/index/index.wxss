@@ -1,0 +1,44 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+/* 按钮 */
+.btn-area {
+   margin-top: 20px;
+}
+.btn-area button {
+  width: 650rpx;
+  margin-top: 10px;
+}
+.c-089CEF{
+  background-color: #089CEF!important;
+}
+.c-FFE608{
+  background-color: #FFE608!important;
+}
+.button-hover[type="primary"].c-089CEF {
+  color:rgba(255, 255, 255, 0.6);
+  background-color:#0863B5!important;
+}
+.button-hover[type="primary"].c-FFE608 {
+  color:rgba(255, 255, 255, 0.6);
+  background-color:#F7BD19!important;
+}

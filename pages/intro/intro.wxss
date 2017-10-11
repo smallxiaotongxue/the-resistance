@@ -1,0 +1,16 @@
+/**intro.wxss**/
+
+.intro-box {
+  text-align: center;
+}
+.intro-text {
+  font-size: 14px;
+  margin: 0 10px 20px;
+  display: block;
+  text-align: justify;
+}
+.game-logo {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20px 0 0;
+}

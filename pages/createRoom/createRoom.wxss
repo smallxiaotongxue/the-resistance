@@ -1,0 +1,63 @@
+.gameroom-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+} 
+.page-body{
+  width:100%;
+  padding: 10px;
+  flex-grow:1;
+  overflow-x:hidden;
+  box-sizing: border-box;
+}
+text {
+  font-size: 28rpx;
+}
+.config {
+  margin-top: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.config-title{
+  font-size: 36rpx;
+}
+.config-item {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #aaa;
+  line-height: 250%;
+}
+.config-item switch{
+  float: right;
+  transform: scale(0.7);
+}
+
+.userinfo {
+  display: flex;
+  width: 750rpx;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  font-size: 14px;
+  max-width: 100rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-area{
+  margin-top: 20px;
+}

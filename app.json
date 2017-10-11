@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/intro/intro",
+    "pages/createRoom/createRoom"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "抵抗组织",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#aaa"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
