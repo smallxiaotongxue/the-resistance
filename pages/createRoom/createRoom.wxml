@@ -6,19 +6,35 @@
       <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
-  </view>
+  </view> 
 
   <view class='page-body'>
 
-    <text class='config-title'>房间号：1</text>
+    <text class='config-title'>玩家人数</text>
+    <view class="body-view">
+      <slider value="100" bindchange="" min="6" max="18" show-value/>
+    </view>
     <view class="config">
       <view class='config-item'>
         <text>随机担任法官</text>
         <switch checked />
       </view>   
+      <view class='config-item'>
+        <text>自动主持游戏</text>
+        <switch checked />
+      </view>   
+    </view>
+    <view class="body-view">
+      <text>抵抗军：</text>
+      <slider value="100" bindchange="" min="1" max="9" show-value/>
+    </view>
+    <view class="body-view">
+      <text>间谍：</text>
+      <slider value="100" bindchange="" min="1" max="9" show-value/>
     </view>
 
-    <text class='config-title'>参与成员</text>
+
+    <!-- <text class='config-title'>参与成员</text>
     <view class='game-member'>
       <view class="member-item">
         <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
@@ -28,23 +44,10 @@
         <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </view> 
-      <view class="member-item">
-        <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </view> 
-      <view class="member-item">
-        <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </view> 
-      <view class="member-item">
-        <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </view> 
-  
-    </view>
+    </view>  -->
 
     <view class="btn-area" id="buttonContainer">
-      <button type="primary" bindtap="toGameRoom">开始游戏</button>
+      <button type="primary" bindtap="toGameRoom">创建房间</button>
     </view>
 
   </view>
