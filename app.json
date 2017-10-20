@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/intro/intro",
-    "pages/createRoom/createRoom"
+    "pages/createRoom/createRoom",
+    "pages/gameRoom/gameRoom",
+    "pages/joinRoom/joinRoom"
   ],
   "window":{
     "backgroundTextStyle":"light",
