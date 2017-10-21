@@ -7,4 +7,34 @@
   justify-content: space-between;
   padding: 120rpx 0;
   box-sizing: border-box;
+}
+
+/* flex公共样式 */
+.flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
+/* 公共样式 */
+.padding-both20{
+  padding: 20rpx;
+}
+.title-tips{
+  padding: 20rpx;
+  background: #f2f2f2;
+  font-size: 32rpx;
+  color: #666;
+}
+.btn-group {
+  padding: 20rpx;
+}
+.btn-group button {
+  margin: 0 50rpx;
+}
+.ui-input {
+  margin: 20rpx;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  border-bottom: 1px solid;
+  text-align: center;
 } 

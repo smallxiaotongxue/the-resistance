@@ -1,0 +1,21 @@
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+  font-size: 14px;
+  max-width: 175rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.person-number {
+  font-size: 14px
+}

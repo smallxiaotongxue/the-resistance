@@ -1,0 +1,23 @@
+<view>
+  <view >
+    <view class='title-tips'>请输入房间号进入游戏</view>
+    <input class="ui-input" type="number" placeholder="房间号" />
+    <view class='btn-group'>
+      <button type="primary">加入游戏</button>
+    </view>
+  </view>
+  <view>
+    <view class='title-tips'>已有房间</view>
+    <view class='padding-both20'>
+      <view class="userinfo">
+        <block>
+          <view class='flex-align-center'>
+            <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">房主：{{userInfo.nickName}}</text>
+          </view>
+          <text class='person-number'>人数：1/12</text>
+        </block>
+      </view>
+    </view> 
+  </view>
+</view>

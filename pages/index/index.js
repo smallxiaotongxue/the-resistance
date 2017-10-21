@@ -20,6 +20,11 @@ Page({
       url: '../intro/intro'
     })
   },
+  toJoinRoomPage: function() {
+    wx.navigateTo({
+      url: '../joinRoom/joinRoom'
+    })
+  },
   createGameRoom: function() {
     wx.navigateTo({
       url: '../createRoom/createRoom'

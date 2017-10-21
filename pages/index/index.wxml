@@ -12,7 +12,7 @@
   </view>
   <view class="btn-area" id="buttonContainer">
     <button type="primary" wx:if="{{hasUserInfo && canIUse}}" bindtap="createGameRoom">创建房间</button>
-    <button type="primary" wx:if="{{hasUserInfo && canIUse}}" class='c-FFE608'>加入房间</button>
+    <button type="primary" wx:if="{{hasUserInfo && canIUse}}" class='c-FFE608' bindtap="toJoinRoomPage">加入房间</button>
     <button type="primary" class="c-089CEF" bindtap="toGameIntroPage">游戏规则</button>
   </view>
 </view>
