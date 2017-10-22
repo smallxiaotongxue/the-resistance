@@ -45,6 +45,11 @@ Page({
       hasUserInfo: true
     })
   },
+  toGameRoom: function () {
+    wx.navigateTo({
+      url: '../gameRoom/gameRoom'
+    })
+  },
   /**
    *  监听页面显示，
    *    当从当前页面调转到另一个页面

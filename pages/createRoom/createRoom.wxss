@@ -57,9 +57,6 @@ text {
   text-overflow: ellipsis;
 }
 
-.btn-area{
-  margin-top: 20px;
-}
 .game-member{
   display: flex;
   align-items: center;

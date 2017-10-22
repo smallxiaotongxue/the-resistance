@@ -1,0 +1,26 @@
+<view>
+  <view >
+    <view class='title-tips'>游戏房间号：6565</view>
+    <view class='person-number'>人数：1/12</view>
+    <view class='title-tips'>参与成员</view>
+    <view class='padding-both20'>
+        
+        <view class='game-member'>
+          <view class="member-item">
+            <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </view> 
+          <view class="member-item">
+            <image wx:if="{{userInfo.avatarUrl}}" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </view> 
+        </view>  
+    </view> 
+    <view class='btn-group'>
+      <!-- 只有当为房主时才会显示开始游戏按钮 -->
+      <button type="primary">开始游戏</button>
+      <button type="primary">邀请好友</button>
+      <button type="default">退出游戏</button>
+    </view>
+  </view>
+</view>

@@ -29,7 +29,8 @@
   padding: 20rpx;
 }
 .btn-group button {
-  margin: 0 50rpx;
+  width: 650rpx;
+  margin-top: 20rpx;
 }
 .ui-input {
   margin: 20rpx;

@@ -46,10 +46,12 @@
       </view> 
     </view>  -->
 
-    <view class="btn-area" id="buttonContainer">
-      <button type="primary" bindtap="toGameRoom">创建房间</button>
-    </view>
+    
 
+  </view>
+
+  <view class="btn-group">
+      <button type="primary" bindtap="toGameRoom">创建房间</button>
   </view>
 
 </view>

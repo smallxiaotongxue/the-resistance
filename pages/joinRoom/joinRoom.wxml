@@ -3,7 +3,7 @@
     <view class='title-tips'>请输入房间号进入游戏</view>
     <input class="ui-input" type="number" placeholder="房间号" />
     <view class='btn-group'>
-      <button type="primary">加入游戏</button>
+      <button type="primary" bindtap="toGameRoom">加入游戏</button>
     </view>
   </view>
   <view>
