@@ -2,6 +2,10 @@
   <view >
     <view class='title-tips'>游戏房间号：6565</view>
     <view class='person-number'>人数：1/12</view>
+    <view class='title-tips'>房间二维码</view>
+    <view>
+      <image class='qrcode' src='../../images/logo.png'></image>
+    </view>
     <view class='title-tips'>参与成员</view>
     <view class='padding-both20'>
         

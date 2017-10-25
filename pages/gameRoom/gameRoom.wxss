@@ -37,3 +37,10 @@
   flex-direction: column;
   align-items: center;
 }
+.qrcode{
+  display: block;
+  width: 300rpx;
+  height: 300rpx;
+  text-align: center;
+  margin: 20rpx auto;
+}
