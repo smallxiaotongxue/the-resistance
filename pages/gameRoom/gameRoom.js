@@ -12,6 +12,11 @@ Page({
    * 监听页面开在加载的状态
    *    页面加载完成之后就不会在执行
    */
+  toMainGameRoom: function () {
+    wx.navigateTo({
+      url: "../mainGameRoom/mainGameRoom"
+    });
+  },
   onLoad: function () {
     console.log('index---------onLoad()')
 

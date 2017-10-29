@@ -5,7 +5,8 @@
     "pages/intro/intro",
     "pages/createRoom/createRoom",
     "pages/gameRoom/gameRoom",
-    "pages/joinRoom/joinRoom"
+    "pages/joinRoom/joinRoom",
+    "pages/mainGameRoom/mainGameRoom"
   ],
   "window":{
     "backgroundTextStyle":"light",
