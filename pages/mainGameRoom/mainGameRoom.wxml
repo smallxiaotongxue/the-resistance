@@ -1,5 +1,5 @@
 <view class="container">
-    <block>
+    <block wx:if="{{ hideInterface }}">
         <view class="inner-container">
             <view class="role-logo-container">
                 <image src="../../images/villager.jpg" class="role-logo" animation="{{roleLogoAnimationData}}"></image>

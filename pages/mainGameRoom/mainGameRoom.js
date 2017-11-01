@@ -1,4 +1,3 @@
-var util = require("../../utils/util.js");
 
 var app = getApp();
 Page({
@@ -6,6 +5,7 @@ Page({
    * 通过data初始化数据
    */
   data: {
+    hideInterface: true
   },
   /**
    * 监听页面开在加载的状态
@@ -13,6 +13,12 @@ Page({
    */
   onLoad: function () {
     
+  },
+  setReady: function () {
+    this.setData({
+      hideInterface : false
+    })
+    console.log(this.data.hideInterface);
   },
   /**
    *  监听页面显示，

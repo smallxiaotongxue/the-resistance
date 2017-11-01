@@ -1,12 +1,12 @@
 {
   "pages":[
+    "pages/mainGameRoom/mainGameRoom",
     "pages/index/index",
     "pages/logs/logs",
     "pages/intro/intro",
     "pages/createRoom/createRoom",
     "pages/gameRoom/gameRoom",
-    "pages/joinRoom/joinRoom",
-    "pages/mainGameRoom/mainGameRoom"
+    "pages/joinRoom/joinRoom"
   ],
   "window":{
     "backgroundTextStyle":"light",
