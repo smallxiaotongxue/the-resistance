@@ -32,6 +32,10 @@
   width: 650rpx;
   margin-top: 20rpx;
 }
+.btn-primary {
+  width: 650rpx;
+  margin-top: 20rpx;
+}
 .ui-input {
   margin: 20rpx;
   font-size: 32rpx;

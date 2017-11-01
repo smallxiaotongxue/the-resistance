@@ -1,5 +1,6 @@
 <view class="container">
     <block wx:if="{{ hideInterface }}">
+      <view class='pop-modal'>
         <view class="inner-container">
             <view class="role-logo-container">
                 <image src="../../images/villager.jpg" class="role-logo" animation="{{roleLogoAnimationData}}"></image>
@@ -7,6 +8,11 @@
             <view class="role-name">你的角色是: 平民</view>
             <view class="role-description">本身没有任何能力，却要考虑很多事情。会接收到真假混杂的信息，如何从中分辨和判断出正确的信息是游戏中最大的难题。</view>
         </view>
-        <button type="primary" bindtap="setReady">我知道了</button>
+        <button class='btn-primary' type="primary" bindtap="setReady">我知道了</button>
+      </view>
     </block>
+
+    <view>
+      
+    </view>
 </view>

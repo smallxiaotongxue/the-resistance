@@ -1,7 +1,17 @@
+.pop-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  color: #fff;
+}
 .inner-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 150rpx;
 }
 .swiper-indicator {
     margin-bottom: 10rpx;
@@ -43,9 +53,10 @@ swiper {
     opacity: 1;
 }*/
 .role-name {
-    padding: 10rpx 0 0 0;
+    padding: 20rpx 0 0 0;
 }
 .role-description {
-    padding: 10rpx 100rpx;
+    padding: 20rpx 100rpx;
     font-size: 0.8em;
+    text-align: justify;
 }
