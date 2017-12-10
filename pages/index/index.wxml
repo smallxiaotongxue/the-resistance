@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <view class="container">
+  <image class='bg' src='../../images/bg.jpg'></image>
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -10,9 +11,12 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <view class="btn-area" id="buttonContainer">
+  <view class="btn-group mt-350" id="buttonContainer">
     <button type="primary" wx:if="{{hasUserInfo && canIUse}}" bindtap="createGameRoom">创建房间</button>
-    <button type="primary" wx:if="{{hasUserInfo && canIUse}}" class='c-FFE608' bindtap="toJoinRoomPage">加入房间</button>
-    <button type="primary" class="c-089CEF" bindtap="toGameIntroPage">游戏规则</button>
+    <button type="primary" wx:if="{{hasUserInfo && canIUse}}" class='btn-ffffff' bindtap="toJoinRoomPage">加入房间</button>
+  </view>
+
+  <view class='bottom-link' bindtap="toGameIntroPage">
+    <text>游戏规则</text>
   </view>
 </view>

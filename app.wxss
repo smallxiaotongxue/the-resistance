@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 120rpx 0;
   box-sizing: border-box;
 }
 
@@ -16,6 +15,10 @@
 }
 
 /* 公共样式 */
+
+.mt-50{margin-top: 50rpx;}
+.mt-150{margin-top: 150rpx;}
+.mt-350{margin-top: 350rpx;}
 .padding-both20{
   padding: 20rpx;
 }
@@ -29,12 +32,15 @@
   padding: 20rpx;
 }
 .btn-group button {
-  width: 650rpx;
+  width: 550rpx;
+  height: 46px;
+  border-radius:23px;
   margin-top: 20rpx;
+  background: #99CE66;
 }
-.btn-primary {
-  width: 650rpx;
-  margin-top: 20rpx;
+.btn-group .btn-ffffff {
+  background: #fff;
+  color: #666;
 }
 .ui-input {
   margin: 20rpx;

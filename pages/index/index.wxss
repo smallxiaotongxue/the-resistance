@@ -3,8 +3,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100rpx;
 }
-
+.userinfo button {
+  width: 200rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
@@ -13,32 +26,22 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
 .usermotto {
-  margin-top: 100px;
+  margin-top: 50px;
+   color: #fff;
+   font-size: 25px;
+   font-weight: bold;
 }
 
-/* 按钮 */
-.btn-area {
-   margin-top: 20px;
-}
-.btn-area button {
-  width: 650rpx;
-  margin-top: 10px;
-}
-.c-089CEF{
-  background-color: #089CEF!important;
-}
-.c-FFE608{
-  background-color: #FFE608!important;
-}
-.button-hover[type="primary"].c-089CEF {
-  color:rgba(255, 255, 255, 0.6);
-  background-color:#0863B5!important;
-}
-.button-hover[type="primary"].c-FFE608 {
-  color:rgba(255, 255, 255, 0.6);
-  background-color:#F7BD19!important;
+.bottom-link{
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  text-decoration: underline;
 }

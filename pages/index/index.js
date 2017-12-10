@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'The-Resistance（抵抗组织）',
+    motto: 'RESITANCE',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
