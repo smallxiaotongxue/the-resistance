@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/createRoom/createRoom",
     "pages/index/index",
     "pages/logs/logs",
     "pages/intro/intro",
-    "pages/createRoom/createRoom",
     "pages/gameRoom/gameRoom",
     "pages/mainGameRoom/mainGameRoom",
     "pages/joinRoom/joinRoom"

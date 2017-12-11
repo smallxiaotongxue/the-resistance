@@ -8,29 +8,29 @@
     </block>
   </view> 
 
-  <view class='page-body'>
+  <view class='form-list'>
 
-    <text class='config-title'>玩家人数</text>
-    <view class="body-view">
-      <slider value="100" bindchange="" min="6" max="18" show-value/>
+    <view class='list-item'>
+      <view class='item-title'>玩家人数</view>
+      <view class="item-body">
+        <slider value="6" bindchange="" min="6" max="18" show-value/>
+      </view>
     </view>
-    <view class="config">
-      <view class='config-item'>
-        <text>随机担任法官</text>
-        <switch checked />
-      </view>   
-      <view class='config-item'>
-        <text>自动主持游戏</text>
-        <switch checked />
-      </view>   
+    <view class='list-item'>
+      <text>随机担任法官</text>
+      <switch checked />
+    </view>   
+    <view class='list-item'>
+      <text>自动主持游戏</text>
+      <switch checked />
+    </view>   
+    <view class="list-item">
+      <text>抵抗军</text>
+      <input class='list-input' placeholder='请输入抵抗军人数'></input>
     </view>
-    <view class="body-view">
-      <text>抵抗军：</text>
-      <slider value="100" bindchange="" min="1" max="9" show-value/>
-    </view>
-    <view class="body-view">
-      <text>间谍：</text>
-      <slider value="100" bindchange="" min="1" max="9" show-value/>
+    <view class="list-item">
+      <text>间谍</text>
+      <input class='list-input' placeholder='请输入间谍人数'></input>
     </view>
 
 
@@ -45,13 +45,10 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </view> 
     </view>  -->
-
-    
-
   </view>
 
-  <view class="btn-group">
-      <button type="primary" bindtap="toGameRoom">创建房间</button>
+  <view class="btn-fixed-bottom btn-group">
+      <button type="primary" bindtap="toGameRoom">应用</button>
   </view>
 
 </view>

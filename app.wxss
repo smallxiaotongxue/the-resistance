@@ -29,18 +29,31 @@
   color: #666;
 }
 .btn-group {
-  padding: 20rpx;
 }
 .btn-group button {
   width: 550rpx;
-  height: 46px;
+  height: 92rpx;
+  line-height: 92rpx;
+  font-size: 32rpx;
   border-radius:23px;
-  margin-top: 20rpx;
+  margin-top: 30rpx;
   background: #99CE66;
 }
 .btn-group .btn-ffffff {
   background: #fff;
   color: #666;
+}
+.btn-fixed-bottom {
+  position: fixed;
+  background: #fff;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30rpx 0;
+}
+.btn-fixed-bottom button:only-child{
+  margin-top: 0;
 }
 .ui-input {
   margin: 20rpx;
