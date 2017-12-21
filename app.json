@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/intro/intro",
     "pages/index/index",
+    "pages/intro/intro",
     "pages/createRoom/createRoom",
     "pages/logs/logs",
     "pages/gameRoom/gameRoom",
