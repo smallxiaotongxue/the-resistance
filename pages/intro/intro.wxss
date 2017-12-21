@@ -10,7 +10,7 @@
   text-align: justify;
 }
 .game-logo {
-  width: 200rpx;
-  height: 200rpx;
+  max-width: 366rpx;
+  height: 500rpx;
   margin: 20px 0 0;
 }

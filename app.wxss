@@ -28,6 +28,9 @@
   font-size: 32rpx;
   color: #666;
 }
+.img{
+  width: 100%;
+}
 .btn-group {
 }
 .btn-group button {
